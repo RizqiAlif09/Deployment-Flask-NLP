@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>SAT-PAM</title>
+</head>
+
+<body style="font-family: 'Roboto', sans-serif; background-color: #f4f6f8; display: flex; flex-direction: column; min-height: 100vh;">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+    <div class="container">
+      <a class="navbar-brand" href="https://kampusmerdeka.kemdikbud.go.id/">
+        <img src="/static/images/kampus-merdeka.png" alt="kampus merdeka logo" style="width: 90px; height: auto;">
+      </a>
+      <a class="navbar-brand" href="https://orbitfutureacademy.id/">
+        <img src="/static/images/orbit.png" alt="Orbit Logo" style="width: 90px; height: auto;">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/">INFORMASI</a></li>
+          <li class="nav-item"><a class="nav-link" href="#anggotaKelompok">ANGGOTA KELOMPOK</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Informasi Section -->
+  <div id="informasi" class="container py-5 d-flex justify-content-center" style="margin-top: 100px; text-align: center; flex-grow: 1;">
+    <div class="row justify-content-center">
+      <div class="col-sm-8">
+        <h1 style="font-size: 2.75rem; color: #2c3e50; font-weight: 700; margin-bottom: 1rem;">Selamat Datang di SAT-PAM</h1>
+        <h4 style="font-size: 1.25rem; color: #34495e; font-weight: 400;">Sms Aman Tanpa sPAM</h4>
+        
+        <!-- Gambar Futuristik -->
+        <img src="static/images/app-display.jpg" alt="app-display" class="img-fluid mb-4" style="border-radius: 12px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);">
+  
+        <p style="font-size: 1.1rem; color: #555; text-align: justify;">
+          Aplikasi ini dibuat khusus untuk mendeteksi sms spam seperti penipuan atau fraud yang banyak meresahkan masyarakat. 
+          SMS yang masuk ke perangkat pengguna akan terlebih dahulu diklasifikasi apakah pesan tersebut adalah pesan wajar, pesan promo, ataupun pesan penipuan. 
+          Jika ditemukan pesan singkat yang berisi penipuan, aplikasi ini akan memberi tahu pengguna untuk berhati-hati terhadap pesan tersebut. 
+          Dengan SAT-PAM, pengguna dapat merasa aman karena terhindar dari sms yang berisi pesan penipuan.
+        </p>
+        <a class="btn btn-lg" href="/aplikasi" style="background-color: #28ace5; color: white; transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#1e8ebc'; this.style.transform='translateY(-3px)'" onmouseout="this.style.backgroundColor='#28ace5'; this.style.transform='translateY(0)'">Mulai</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Anggota Kelompok Section -->
+  <div id="anggotaKelompok" class="container py-5 text-center" style="margin-top: 200px; max-width: 1200px; padding-bottom: 400px; padding-top: 2rem; padding-bottom: 2rem; border-top: 1px solid #ddd;">
+    <h2 class="mb-4" style="color: #2c3e50;">ANGGOTA KELOMPOK</h2>
+    <h4 class="mb-5" style="color: #2c3e50;">Tim Deployment dan Tim NLP</h4>
+    <div class="overflow-container" style="overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none; padding: 0; cursor: grab;">
+        <div class="row flex-nowrap" id="scrollable" style="display: flex; scroll-snap-type: x mandatory; gap: 15px; padding: 0 15px;">
+            <!-- Members here (repeat structure as needed) -->
+            <div class="col-sm-4" style="scroll-snap-align: center; flex: 0 0 auto;">
+                <div class="card p-3" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); height: 300px;">
+                    <img src="/static/images/budi.jpg" alt="BUDI" class="member-photo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #28ace5; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                    <h4>BUDI</h4>
+                    <p>Universitas Sumatera</p>
+                </div>
+            </div>
+            <!-- Member 2 -->
+            <div class="col-sm-4" style="scroll-snap-align: center; flex: 0 0 auto;">
+                <div class="card p-3" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); height: 300px;">
+                    <img src="/static/images/ayu.jpg" alt="AYU" class="member-photo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #28ace5; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                    <h4>AYU</h4>
+                    <p>Universitas Jawa dan Bali</p>
+                </div>
+            </div>
+            <!-- Member 3 -->
+            <div class="col-sm-4" style="scroll-snap-align: center; flex: 0 0 auto;">
+                <div class="card p-3" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); height: 300px;">
+                    <img src="/static/images/tono.jpg" alt="TONO" class="member-photo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #28ace5; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                    <h4>TONO</h4>
+                    <p>Universitas Kalimantan</p>
+                </div>
+            </div>
+            <!-- Member 4 -->
+            <div class="col-sm-4" style="scroll-snap-align: center; flex: 0 0 auto;">
+                <div class="card p-3" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); height: 300px;">
+                    <img src="/static/images/putra.jpg" alt="PUTRA" class="member-photo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #28ace5; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+                    <h4>PUTRA</h4>
+                    <p>Universitas Sulawesi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Footer -->
+  <footer class="container-fluid text-center py-4" style="background-color: white;">
+    <a href="#informasi" title="To Top"><span class="fas fa-chevron-up" style="font-size: 24px;"></span></a>
+    <p><a href="https://orbitfutureacademy.id/">Orbit Future Academy</a></p>
+    <small>&copy; 2024 Orbit Future Academy. All rights reserved.</small>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/static/js/scrollcontroller.js"></script>
+</body>
+</html>
